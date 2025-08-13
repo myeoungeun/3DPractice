@@ -8,12 +8,16 @@ namespace _02.Scripts.Player
         public static CharacterManager Instance{
             get
             {
+                if (_instance == null) //null 방어코드
+                {
+                    _instance = new GameObject("CharacterManager").AddComponent<CharacterManager>();
+                }
                 return _instance;
             }
         }
 
-        private Scripts.Player.Player _player;
-        public Scripts.Player.Player Player {
+        private Player _player;
+        public Player Player {
             get
             {
                 return _player;
@@ -33,7 +37,11 @@ namespace _02.Scripts.Player
             }
             else
             {
-                Destroy(gameObject);
+                if (_instance == this)
+                {
+                    Destroy(gameObject);
+                    
+                }
             }
         }
     }

@@ -24,6 +24,7 @@ namespace _02.Scripts
         
         void Start()
         {
+            Debug.Log(CharacterManager.Instance.Player);
             _rigidbody = CharacterManager.Instance.Player.GetComponent<Rigidbody>();
         }
     }

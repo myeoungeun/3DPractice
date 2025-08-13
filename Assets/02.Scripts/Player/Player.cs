@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace _02.Scripts.Player
@@ -7,6 +8,8 @@ namespace _02.Scripts.Player
         public PlayerController playerController;
         public PlayerCondition playerCondition;
 
+		public ItemInfo iteminfo;
+        
         private void Awake()
         {
             CharacterManager.Instance.Player = this;
