@@ -1,7 +1,10 @@
 [개인 프로젝트 발제](https://www.notion.so/teamsparta/Unity-11-2472dc3ef51480efbcfff685a03055f8)
 
 목표 : 기본적인 3D 게임을 구현해보자
+
 제작 기간 : 2025.08.11(월) ~ 2025.08.13(수)
+
+
 
 필수 기능
 - **기본 이동 및 점프 `Input System`, `Rigidbody ForceMode`** (난이도 : ★★☆☆☆)
