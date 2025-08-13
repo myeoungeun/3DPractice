@@ -11,5 +11,6 @@ namespace _02.Scripts
         public float heal;
         public float hunger;
         public float stamina; //사용했을 때 닳는 스테미나
+        public string effect; //효과 정보
     }
 }

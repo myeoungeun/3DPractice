@@ -7,6 +7,8 @@ using UnityEngine;
 public class ItemObject : MonoBehaviour
 {
     public ItemInfo itemInfo;
+    public PlayerCondition playerCondition;
+
 
     public string GetInteractionInfo()
     {

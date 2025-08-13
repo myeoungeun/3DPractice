@@ -649,6 +649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 11400000, guid: 259d0bedd3374724f8e4b215e9842b7d, type: 2}
+  playerCondition: {fileID: 1773364562}
 --- !u!1001 &456724539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1298,7 +1299,7 @@ GameObject:
   - component: {fileID: 972269352}
   m_Layer: 8
   m_Name: Object_Fish
-  m_TagString: Untagged
+  m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1322,8 +1323,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.44548523, y: 0.2519005, z: 0.14663339}
-  m_Center: {x: -0.051573932, y: 0.015837759, z: 0.0020805597}
+  m_Size: {x: 0.44548523, y: 0.2018286, z: 0.09785986}
+  m_Center: {x: -0.051573932, y: 0.005081117, z: 0.006644964}
 --- !u!54 &972269350
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1376,10 +1377,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 972269348}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 498d7fa1229f3a247859d44593817205, type: 3}
+  m_Script: {fileID: 11500000, guid: 1eba8ff51f6b7f64794463b2da8c69e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 11400000, guid: bef548bf874505949969754ffafbaeac, type: 2}
+  playerCondition: {fileID: 1773364562}
 --- !u!1 &1171901830
 GameObject:
   m_ObjectHideFlags: 0
@@ -1644,6 +1646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 11400000, guid: b5dbeaafd8411484eb4022010101973f, type: 2}
+  playerCondition: {fileID: 1773364562}
 --- !u!1 &1473780852
 GameObject:
   m_ObjectHideFlags: 0
@@ -2315,6 +2318,8 @@ MonoBehaviour:
     m_Bits: 256
   curInteractGameObject: {fileID: 0}
   promptText: {fileID: 274037812}
+  time: 5
+  isOnCorutine: 0
 --- !u!1 &1890218808
 GameObject:
   m_ObjectHideFlags: 0
@@ -2678,6 +2683,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 11400000, guid: 9445e9fb505651c409f11dea6c68df6d, type: 2}
+  playerCondition: {fileID: 1773364562}
 --- !u!33 &707634559658809377
 MeshFilter:
   m_ObjectHideFlags: 0
